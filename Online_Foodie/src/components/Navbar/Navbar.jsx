@@ -3,11 +3,13 @@ import React from 'react';
 const Navbar = () => {
   return (
     <>
-      <div className="container shadow-md bg-white dark:bg-gray-900 dark:text-white duration-200">
-        vasudev
+      <div className="shadow-md bg-white dark:bg-gray-900 dark:text-white duration-200">
+        <div className="container bg-primary">
+          Hello
+        </div>
       </div>
     </>
   );
-};
+}
 
 export default Navbar;
