@@ -3,6 +3,9 @@ import Img from "../../assets/biryani.png";
 import Img2 from "../../assets/biryani2.png";
 import Img3 from "../../assets/biryani4.png";
 import StarRatings from "react-star-ratings";
+import mark from "../../assets/mark2.png";
+
+
 const ServicesData = [
   {
     id: 1,
@@ -31,7 +34,10 @@ const Services = () => {
     <>
       <span id="services"></span>
       <div className="py-10">
-        <div className="container">
+        <div className="container"
+        style={{ backgroundImage: `url(${mark})`,height: '100vh', backgroundSize: 'cover' ,marginTop:'-10vh'}}
+        
+        >
           <div className="text-center mb-20 max-w-[400px] mx-auto">
             <p className="text-sm bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary ">
               Our Services

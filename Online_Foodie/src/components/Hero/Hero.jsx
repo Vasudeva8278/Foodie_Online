@@ -4,8 +4,7 @@ import BiryaniImg2 from "../../assets/biryani5.png";
 import BiryaniImg3 from "../../assets/biryani2.png";
 import image5 from "../../assets/image5.png";
 import Vector from "../../assets/vector3.png";
-import back3 from "../../assets/back3.png";
-import bgimg from "../../assets/bgimg.jpg"
+
 
 const ImageList = [
   {

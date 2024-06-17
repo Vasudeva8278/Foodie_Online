@@ -16,6 +16,7 @@ const App = () => {
     <Banner />
     <AppStore />
     <Testimonial />
+    <br/><br/>
     <Footer />
     
    
