@@ -2,7 +2,10 @@ import React from "react";
 import BiryaniImg1 from "../../assets/biryani3.png";
 import BiryaniImg2 from "../../assets/biryani5.png";
 import BiryaniImg3 from "../../assets/biryani2.png";
+import image5 from "../../assets/image5.png";
 import Vector from "../../assets/vector3.png";
+import back3 from "../../assets/back3.png";
+import bgimg from "../../assets/bgimg.jpg"
 
 const ImageList = [
   {
@@ -17,6 +20,7 @@ const ImageList = [
     id: 3,
     img: BiryaniImg3,
   },
+  
 ];
 
 const Hero = () => {
@@ -35,8 +39,10 @@ const Hero = () => {
     <>
       <div
         className="min-h-[550px] sm:min-h-[600px] bg-gray-100 flex justify-center items-center dark:bg-gray-950 dark:text-white duration-200"
-        style={bgImage}
+        style={bgImage} 
       >
+    
+        
         <div className="container pb-8 sm:pb-0">
           <div className="grid grid-cols-1 sm:grid-cols-2">
             {/* text content section */}
